@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPACE Moving Services</title>
+    <link rel="stylesheet" href="styler.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="menu">
+                    <ul class="nav-links">
+                        <li><a href="#hero">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li class="logo-item">
+                            <div class="icon">
+                                <h2 class="logo">SPACE</h2>
+                            </div>
+                        </li>
+                        <li><a href="#movers">MOVERS</a></li>
+                        <li><a href="#history">HISTORY</a></li> 
+                        <li><a href="#contact">CONTACT</a></li>    
+                    </ul>
+                </div>
+        
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Professional Moving Services<br><span>With Just A Call!!</span></h1>
+                        <p>Top Tier Licensed and Insured Movers, to turn your relocation stress into a seamless experience, your belongings into safely transported treasures.</p>
+                        <button class="btn">Get Quote</button>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <div class="info-wrapper">
+            <section class="info">
+                <div class="info-text">
+                    <h4>START YOUR MOVE</h4>
+                    <h2>Talk to a Real Moving Expert First</h2>
+                    <p class="p1">Share your moving needs with a friendly moving consultant and get expert advice.</p>
+                    <button class="btn">Get Estimate</button>
+                </div>
+            </section>
+        
+            <section class="info">
+                <div class="info-text">
+                    <h4>Join Our Team</h4>
+                    <h2>BECOME A CERTIFIED MOVER</h2>
+                    <p class="p1">Get matched with steady work based on your skills and availability</p>
+                    <button class="btn">Apply Now</button>
+                </div>
+            </section>
+        </div> 
+
+        <div class="info-wrapper">
+            <section class="info">
+                <div class="info-text">
+                    <h4>Consultation</h4>
+                    <h2>Book A Moving Consultant</h2>
+                    <p class="p1">Schedule a free in-home estimate with an experienced moving specialist to assess your needs and provide accurate pricing.</p>
+                    <button class="btn">Book Now</button>
+                </div>
+            </section>
+
+            <section class="info2">
+                <div class="info2-img3">
+                    <img src="top-view-messy-full-moving-boxes-room.png" alt="Moving Services" />
+                </div>
+            </section>
+        </div>
+
+        <div id="services" class="services">
+            <div class="services-txt">
+                <h2>SERVICES</h2>
+                <p>On Time, Within Budget, And Beyond Expectation</p>
+            </div>
+        </div>
+
+        <div class="info-wrapper">
+            <section class="info">
+                <div class="info-text">
+                    <h4>Free Consultation</h4>
+                    <h2>What's Best For Your Moving Needs</h2>
+                    <p class="p1">Your move deserves to be handled by someone who actually cares about your belongings. This first consultation is casual, no pressure, and focused entirely on your needs. Whether you're moving locally, long-distance, commercial, or residential, our experts are here to listen, assess your requirements, and provide honest recommendations.</p>
+                    <button class="btn">Get Started</button>
+                </div>
+            </section>
+        
+            <section class="info">
+                <div class="info-text">
+                    <h4>Perfect Match</h4>
+                    <h2>Your Assigned Moving Team</h2>
+                    <div class="p1">
+                        <ul class="feature-list">
+                            <li>✅ <strong>Budget Matching:</strong> We only assign teams that work within your price range.</li>
+                            <li>✅ <strong>Move Type:</strong> Based on consultation, we assign specialists for local, long-distance, or commercial moves.</li>
+                            <li>✅ <strong>Special Requirements:</strong> Need piano moving, fragile items, or storage? We match accordingly.</li>
+                            <li>✅ <strong>Availability:</strong> Only teams ready to move on your preferred dates are considered.</li>
+                        </ul>
+                    </div>
+                    <button class="btn">View Teams</button>
+                </div>
+            </section>
+        </div>
+
+        <section class="hero3">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero3-text">
+                        <h1>Your Move<br><span>Your Dashboard</span></h1>
+                        <p>Stay in control at every step. Track your moving timeline, chat with your moving coordinator, view invoices, share inventory lists, and request updates—all in one place designed to keep your move progressing smoothly.</p>
+                        <button class="btn">Track Move</button>
+                    </div>
+                    <div class="hero3-img2">
+                        <img src="family-moving-into-new-home.jpg" alt="Moving Dashboard" />
+                    </div>
+                </div>
+            </div> 
+        </section>
+          
+        <section class="testimonials-section">
+            <div class="testimonial-left">
+                <span class="testimonial-label">Testimonials</span>
+                <h2>What our customers say</h2>
+                <p>Real stories from people who experienced stress-free moves with SPACE.</p>
+            
+                <div class="testimonial-buttons">
+                    <button class="btn-prev" id="prevBtn">‹</button>
+                    <button class="btn-next" id="nextBtn">›</button>
+                </div>
+                
+                <div class="testimonial-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                </div>
+            </div>
+            
+            <div class="testimonial-carousel">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>"SPACE made our cross-country relocation so easy! The team was professional, careful with our belongings, and delivered everything on time. Highly recommend for anyone planning a long-distance move!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">AR</div>
+                                <div class="author-info">
+                                    <h4>Gathoni Esther</h4>
+                                    <span>Relocated Family</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>"I was dreading my office move for months. SPACE handled everything seamlessly - from packing our equipment to setting up at the new location. The tracking dashboard kept me informed throughout!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">MS</div>
+                                <div class="author-info">
+                                    <h4>Okello Max</h4>
+                                    <span>Business Owner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>"As a mover with SPACE, I love working with such a professional company. The training was thorough, and the team environment is supportive. Great benefits and steady work!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">PT</div>
+                                <div class="author-info">
+                                    <h4>Rashid Abdallah</h4>
+                                    <span>Professional Mover</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>"The consultation was incredibly helpful. My moving coordinator understood our needs perfectly and suggested packing services I hadn't considered. The final move exceeded all expectations!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">JL</div>
+                                <div class="author-info">
+                                    <h4>Maina Ngendo</h4>
+                                    <span>Homeowner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+        <section class="hero4">
+            <div class="partners-container">
+                <span class="partners-label">Our Partners</span>
+                <div class="partners-logos">
+                    <span class="partner">Allied Van Lines</span>
+                    <span class="partner">U-Haul</span>
+                    <span class="partner">StorageMart</span>
+                    <span class="partner">MovingHelp</span>
+                    <span class="partner">ReloSmart</span>
+                </div>
+            </div>
+        </section>
+
+        <div id="movers" class="developers">
+            <div class="developers-text">
+                <h4>MOVERS TEAM</h4>
+                <h2>Join Our Team & Get Certified.</h2>
+            </div>
+        </div>
+
+        <div class="info3-wrapper">
+            <section class="info3">
+                <div class="info3-text">
+                    <h4>Mover Application</h4>
+                    <h2>Apply Now, Move With Us</h2>
+                    <p>Join a growing team of professional movers. Whether you're experienced or new to moving, we provide training. Apply, get certified, and work on real moving projects.</p>
+                    <button class="btn">Apply</button>
+                </div>
+            </section>
+
+            <section class="info3">
+                <div class="info3-text">
+                    <h4>Certification Process</h4>
+                    <h2>How to Get Certified</h2>
+                    <p>Fill out the application with your experience and availability. Complete our moving safety training and pass a background check for customer trust.</p>
+                    <button class="btn">Get Certified</button>
+                </div>
+            </section>
+
+            <section class="info3">
+                <div class="info3-text">
+                    <h4>Career Growth</h4>
+                    <h2>Advance Your Career</h2>
+                    <p>Build your reputation by completing successful moves, training new movers, or leading moving crews. Get promoted to supervisor roles and earn higher wages through our merit-based advancement system.</p>
+                    <button class="btn">Grow Career</button>
+                </div>
+            </section>
+        </div>
+
+        <section class="hero3">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero3-text">
+                        <h4>MOVECOMM</h4>
+                        <h1>Welcome to the SPACE Community</h1>
+                        <p>This is where customers and movers connect beyond the move. Ask questions, share experiences, get moving tips, and receive support from a friendly and professional network.</p>
+                        <button class="btn">Join Community</button>
+                    </div>
+                    <div class="hero3-img2">
+                        <img src="husband-wife-feeling-proud-about-having-household-keys-buying-first-home-together-moving-celebrating-life-event-as-homeowners-enjoying-fun-relocation-new-beginnings.jpg" alt="Moving Community" />
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="hero5">
+            <div class="container2">
+                <div class="hero5-wrapper">
+                    <div class="hero5-left">
+                        <h4>Need Help?</h4>
+                        <h1>Frequently Asked Questions</h1>
+                        <p>Find answers to common questions about our moving services, pricing, insurance coverage, and how to prepare for your move.</p>
+                        <div class="hero5-image">
+                            <img src="young-puzzled-woman-doesn-t-know-what-isolated.jpg" alt="FAQ Illustration" />
+                        </div>
+                    </div>
+            
+                    <div class="hero5-right">
+                        <ul class="faq-list">
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">How much does a move cost?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">Can I choose my moving team?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">What insurance coverage do you provide?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">Do I need to pack everything myself?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">What if something gets damaged during the move?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="developers">
+            <div class="developers-text">
+                <h2>GET IN TOUCH</h2>
+                <p>We're here to help! Whether you're planning a move or want to join our moving team, just reach out.</p>
+            </div>
+        </div>
+
+        <section id="contact" class="contact-section">
+            <h4 class="contact-title">Let's Make Your Move Seamless</h4>
+            <div class="contact-header">
+                <h1 class="contact-subtitle">CONTACT DETAILS</h1>
+                <h1 class="contact-subtitle2">Start Your Moving Journey</h1>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Email us directly: <a href="mailto:info@spacemoving.com">info@spacemoving.com</a></p>
+                    <p>Call us: +1-800-SPACE-MOVE (Mon–Sat, 7am–7pm)</p>
+                    <p class="social-title">Follow us on social media:</p>
+                    <ul class="social-ul">
+                        <li>Facebook: <a href="#"> @SPACEMoving</a></li>
+                        <li>Instagram: <a href="#"> @SPACE</a></li>
+                        <li>LinkedIn: <a href="#"> SPACE Professional Moving</a></li>
+                    </ul>
+                </div>
+
+                <div class="forms">
+                    <form class="contact-form">
+                        <div>
+                            <label for="name">Your Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="subject">Moving Type</label>
+                            <input type="text" id="subject" name="subject" placeholder="Local, Long-distance, Commercial">
+                        </div>
+                        <div>
+                            <label for="message">Moving Details*</label>
+                            <textarea id="message" name="message" required rows="5" placeholder="Tell us about your moving needs..."></textarea>
+                        </div>
+                        <button type="submit" class="send-button">Get Free Quote</button>
+                    </form>
+                </div>
+            </div>
+            <p class="contact-footer">Free Estimates Provided Within 2-4 Hours</p>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    
+                    <div class="footer-section">
+                        <h3 class="footer-title">SPACE</h3>
+                        <p class="footer-description">
+                            Connecting families and businesses with professional moving services. 
+                            We turn stressful relocations into seamless experiences through expert moving partnerships.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link">Facebook</a>
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">YouTube</a>
+                        </div>
+                    </div>
+
+                   
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="#services">Local Moving</a></li>
+                            <li><a href="#services">Long Distance Moving</a></li>
+                            <li><a href="#services">Commercial Moving</a></li>
+                            <li><a href="#services">Packing Services</a></li>
+                            <li><a href="#services">Storage Solutions</a></li>
+                            <li><a href="#services">Specialty Moving</a></li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-heading">For Movers</h4>
+                        <ul class="footer-links">
+                            <li><a href="#movers">Join Our Team</a></li>
+                            <li><a href="#movers">Get Certified</a></li>
+                            <li><a href="#movers">Career Growth</a></li>
+                            <li><a href="#movers">Training Program</a></li>
+                            <li><a href="#movers">Benefits Package</a></li>
+                            <li><a href="#movers">Safety Training</a></li>
+                        </ul>
+                    </div>
+
+                   
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#hero5">FAQ</a></li>
+                            <li><a href="#help">Moving Tips</a></li>
+                            <li><a href="#documentation">Moving Guides</a></li>
+                            <li><a href="#tutorials">Packing Tips</a></li>
+                            <li><a href="#claims">Claims Process</a></li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Company</h4>
+                        <ul class="footer-links">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#careers">Careers</a></li>
+                            <li><a href="#blog">Moving Blog</a></li>
+                            <li><a href="#press">Press Kit</a></li>
+                            <li><a href="#partners">Partners</a></li>
+                            <li><a href="#locations">Service Areas</a></li>
+                        </ul>
+                    </div>
+
+                  
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Legal</h4>
+                        <ul class="footer-links">
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                            <li><a href="#insurance">Insurance Info</a></li>
+                            <li><a href="#licensing">Licensing</a></li>
+                            <li><a href="#complaints">File Complaint</a></li>
+                            <li><a href="#regulations">DOT Regulations</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+               
+                <div class="footer-bottom">
+                    <div class="footer-bottom-content">
+                        <p class="copyright">
+                            © 2024 SPACE. All rights reserved. Licensed & Insured Professional Movers.
+                        </p>
+                        <div class="footer-bottom-links">
+                            <a href="#sitemap">Sitemap</a>
+                            <a href="#accessibility">Accessibility</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
